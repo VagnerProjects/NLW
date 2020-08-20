@@ -3,7 +3,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo.svg';
-import landingImg from '../../assets/images/landing.svg';
+import landingImg from '../../assets/images/elearning.png';
+import bolinha from "../../assets/images/bolinha.png";
+import triangle from "../../assets/images/triangle.png";
 
 import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
@@ -33,6 +35,8 @@ function Landing() {
         </div>
 
         <img src={landingImg} alt="Plataforma de estudos" className="hero-image"/>
+        <img src={bolinha} alt ="Design" className="bolinha"/>
+        <img src={triangle} alt = "Triangle" className="triangle" />
 
         <div className="buttons-container">
           <Link to="/study" className="study">

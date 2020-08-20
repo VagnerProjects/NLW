@@ -8,7 +8,7 @@
   align-items: center;
 
   color: var(--color-text-in-primary);
-  background: var(--color-primary);
+  background-color: lightgreen;
 }
 
 .logo-container img {
@@ -16,7 +16,18 @@
 }
 
 .hero-image {
-  width: 100%;
+  width: 80%;
+}
+
+.bolinha 
+{
+  width: 15%;
+  margin-top: 90px;
+}
+
+.triangle{
+  width:15%;
+  margin-top:250px;
 }
 
 .logo-container {
@@ -62,19 +73,19 @@
 }
 
 .buttons-container a.study {
-  background: var(--color-primary-lighter);
+  background: lightcoral;
 }
 
 .buttons-container a.give-classes {
-  background: var(--color-secundary);
+  background: slateblue;
 }
 
 .buttons-container a.study:hover {
-  background: var(--color-primary-light);
+  background: indianred;
 }
 
 .buttons-container a.give-classes:hover {
-  background: var(--color-secundary-dark);
+  background:darkslateblue;
 }
 
 .buttons-container a img {
@@ -122,6 +133,21 @@
   .hero-image {
     grid-area: hero;
     justify-self: end;
+  }
+
+  .bolinha{
+    justify-self: left;
+    margin-left: 170px;
+
+ 
+    grid-area: hero;
+  }
+
+  .triangle{
+    justify-self:left;
+    margin-left:450px;
+
+    grid-area:hero;
   }
 
   .buttons-container {

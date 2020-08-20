@@ -1,7 +1,7 @@
 .page-header {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-primary);
+  background: lightskyblue;
 }
 
 .page-header .top-bar-container {
